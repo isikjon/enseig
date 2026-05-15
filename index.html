@@ -153,15 +153,19 @@
                             <div class="card__wrapper-slider-block">
                                 <div class="card__wrapper-slider-child">
                                     <img class="card__wrapper-slider-child-item"
-                                        src="./assets/img/figma/26d9748aeea18dd64ae38dacc5bae6fea37e7e93.png" alt="Kilimanjaro">
+                                        src="./assets/img/figma/26d9748aeea18dd64ae38dacc5bae6fea37e7e93.png"
+                                        alt="Kilimanjaro">
                                     <img class="card__wrapper-slider-child-item"
-                                        src="./assets/img/figma/c5069a98e0c540ffb3d260c7d3ee361f66e7945f.png" alt="Kilimanjaro wildlife">
+                                        src="./assets/img/figma/c5069a98e0c540ffb3d260c7d3ee361f66e7945f.png"
+                                        alt="Kilimanjaro wildlife">
                                     <img class="card__wrapper-slider-child-item"
-                                        src="./assets/img/figma/3ca4522a6363c23e25b4c8758b2dd4e7bc8956c2.png" alt="Kilimanjaro hikers">
+                                        src="./assets/img/figma/3ca4522a6363c23e25b4c8758b2dd4e7bc8956c2.png"
+                                        alt="Kilimanjaro hikers">
                                 </div>
                                 <div class="card__wrapper-slider-parent">
                                     <div class="card__wrapper-slider-parent-item">
-                                        <img src="./assets/img/figma/4d0d59109d6be89bfe9fd10a0824017ff5a86bd0.png" alt="Penguins beach">
+                                        <img src="./assets/img/figma/4d0d59109d6be89bfe9fd10a0824017ff5a86bd0.png"
+                                            alt="Penguins beach">
                                         <a class="card__wrapper-slider-parent-view" href="#"><img
                                                 src="./assets/img/photos.svg" alt="photos">View all</a>
                                     </div>
@@ -398,66 +402,65 @@
                                 <div class="card__wrapper-booking-calendar">
                                     <div class="card__wrapper-booking-head">
                                         <h2>Dates & Availability</h2>
-                                        <p>Price based<br>on passengers <b data-passenger-total>4</b></p>
+                                        <div class="card__wrapper-booking-head-pass">
+                                            <div class="card__wrapper-booking-head-price-title">
+                                                <p>Price based<br>on passengers </p>
+                                            </div>
+                                            <div class="card__wrapper-booking-head-price-icon">
+                                                <h2>4</h2>
+                                                <img src="./assets/img/dateUser.svg" alt="dateUser">
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="card__wrapper-booking-month">
-                                        <button type="button" aria-label="Previous month"></button>
-                                        <span data-booking-month>Aug 2026</span>
-                                        <button type="button" aria-label="Next month"></button>
+                                        <button type="button" aria-label="Previous month">
+                                            <img src="./assets/img/arrow_left.svg" alt="arrow_left">
+                                        </button>
+                                        <span data-booking-month>February 2026</span>
+                                        <button type="button" aria-label="Next month">
+                                            <img src="./assets/img/arrow_right.svg" alt="arrow_right">
+                                        </button>
                                     </div>
                                     <div class="card__wrapper-booking-days">
-                                        <button type="button" data-booking-day data-date="12 Aug 2026"
-                                            data-title="12 Aug" data-duration="10 days / 9 nights" data-price="2476"
-                                            data-deposit="450" data-balance="8505">
-                                            <span>Wed</span>
-                                            <b>12 Aug</b>
-                                            <small>from €2.476</small>
-                                            <em>6 spots</em>
+                                        <button class="card__wrapper-booking-days-item">
+                                            <p class="card__wrapper-booking-day">02 Feb</p>
+                                            <p class="card__wrapper-booking-group">Small group</p>
+                                            <p class="card__wrapper-booking-oldprice">€ 2.476</p>
+                                            <p class="card__wrapper-booking-newprice">€ 2.476</p>
                                         </button>
-                                        <button type="button" data-booking-day data-date="16 Aug 2026"
-                                            data-title="16 Aug" data-duration="10 days / 9 nights" data-price="2280"
-                                            data-deposit="420" data-balance="7890">
-                                            <span>Sun</span>
-                                            <b>16 Aug</b>
-                                            <small>from €2.280</small>
-                                            <em>8 spots</em>
+                                        <button class="card__wrapper-booking-days-item">
+                                            <p class="card__wrapper-booking-day">08 Feb</p>
+                                            <p class="card__wrapper-booking-group">Small group</p>
+                                            <p class="card__wrapper-booking-oldprice">€ 2.476</p>
+                                            <p class="card__wrapper-booking-newprice">€ 2.476</p>
                                         </button>
-                                        <button class="muted" type="button" disabled data-booking-day
-                                            data-date="20 Aug 2026">
-                                            <span>Thu</span>
-                                            <b>20 Aug</b>
-                                            <small>Sold out</small>
-                                            <em>0 spots</em>
+                                        <button class="card__wrapper-booking-soldout card__wrapper-booking-days-item">
+                                            <p class="card__wrapper-booking-day">14 Feb</p>
+                                            <p class="card__wrapper-booking-group">Small group</p>
+                                            <span>Sold Out</span>
                                         </button>
-                                        <button class="active" type="button" data-booking-day data-date="24 Aug 2026"
-                                            data-title="24 Aug" data-duration="10 days / 9 nights" data-price="2476"
-                                            data-deposit="450" data-balance="8505">
-                                            <span>Mon</span>
-                                            <b>24 Aug</b>
-                                            <small>from €2.476</small>
-                                            <em>Best price</em>
+                                        <button
+                                            class="card__wrapper-booking-days-item-active card__wrapper-booking-days-item">
+                                            <p class="card__wrapper-booking-day">20 Feb</p>
+                                            <p class="card__wrapper-booking-group">Small group</p>
+                                            <p class="card__wrapper-booking-oldprice">€ 2.476</p>
+                                            <p class="card__wrapper-booking-newprice">€ 2.476</p>
                                         </button>
-                                        <button type="button" data-booking-day data-date="28 Aug 2026"
-                                            data-title="28 Aug" data-duration="10 days / 9 nights" data-price="2590"
-                                            data-deposit="490" data-balance="8790">
-                                            <span>Fri</span>
-                                            <b>28 Aug</b>
-                                            <small>from €2.590</small>
-                                            <em>4 spots</em>
+                                        <button
+                                            class="card__wrapper-booking-days-private card__wrapper-booking-days-item">
+                                            <p class="card__wrapper-booking-day">Private tours departing daily</p>
+                                            <p class="card__wrapper-booking-oldprice">€ 2.476</p>
+                                            <p class="card__wrapper-booking-newprice">€ 2.476</p>
                                         </button>
-                                    </div>
-                                    <div class="card__wrapper-booking-selected">
-                                        <span>Selected departure</span>
-                                        <b data-selected-date>24 Aug 2026</b>
                                     </div>
                                     <p class="card__wrapper-booking-help">Can't find a date that works for you?</p>
-                                    <a class="card__wrapper-booking-link" href="#">Find similar Croatia tours available in Aug 2026</a>
+                                    <a class="card__wrapper-booking-link" href="#">Find similar Croatia tours available
+                                        in Aug 2026</a>
                                 </div>
 
                                 <div class="card__wrapper-booking-passengers">
                                     <div class="card__wrapper-booking-head">
                                         <h2>Passengers</h2>
-                                        <p><b data-passenger-total>4</b></p>
                                     </div>
                                     <div class="card__wrapper-passenger-row" data-passenger-row data-type="adult"
                                         data-min="1" data-max="15">
@@ -466,7 +469,8 @@
                                             <p>Min: 1, Max: 15</p>
                                         </div>
                                         <div class="card__wrapper-counter">
-                                            <button type="button" data-counter-minus aria-label="Remove adult">−</button>
+                                            <button type="button" data-counter-minus
+                                                aria-label="Remove adult">−</button>
                                             <span data-counter-value>2</span>
                                             <button type="button" data-counter-plus aria-label="Add adult">+</button>
                                         </div>
@@ -474,11 +478,12 @@
                                     <div class="card__wrapper-passenger-row" data-passenger-row data-type="child"
                                         data-min="0" data-max="15">
                                         <div>
-                                            <h3>Child (3+) <small>−29%*</small></h3>
+                                            <h3>Child (3+)</h3>
                                             <p>Min: 0, Max: 15</p>
                                         </div>
                                         <div class="card__wrapper-counter">
-                                            <button type="button" data-counter-minus aria-label="Remove child">−</button>
+                                            <button type="button" data-counter-minus
+                                                aria-label="Remove child">−</button>
                                             <span data-counter-value>2</span>
                                             <button type="button" data-counter-plus aria-label="Add child">+</button>
                                         </div>
@@ -489,7 +494,7 @@
                                     <div class="card__wrapper-price-head">
                                         <div>
                                             <h2>Price</h2>
-                                            <p><span data-price-passengers>2 Adults 2 Children</span></p>
+                                            <p><span data-price-passengers>3 Adults 1 Child</span></p>
                                         </div>
                                         <span>€ EUR</span>
                                     </div>
@@ -499,16 +504,16 @@
                                             <p>Price per person</p>
                                         </div>
                                         <div>
-                                            <del data-old-price>€3.095</del>
+                                            <del data-old-price>€2.476</del>
                                             <b data-price-person>€2.476</b>
                                         </div>
                                     </div>
                                     <div class="card__wrapper-price-line">
                                         <div>
                                             <p>Total tour price</p>
-                                            <small><span data-price-passengers>2 Adults 2 Children</span></small>
+                                            <small><span data-price-passengers>3 Adults 1 Child</span></small>
                                         </div>
-                                        <b data-total-price>€8.955</b>
+                                        <b data-total-price>€3.460.00</b>
                                     </div>
                                     <div class="card__wrapper-price-deposit">
                                         <div>
@@ -516,14 +521,15 @@
                                             <p>Remaining balance (Due on <span data-due-date>20 Jul 2026</span>)</p>
                                         </div>
                                         <div>
-                                            <b data-deposit-price>€450</b>
-                                            <span data-balance-price>€8.505</span>
+                                            <b data-deposit-price>€450.00</b>
+                                            <span data-balance-price>€8,505.00</span>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="card__wrapper-booking-actions">
-                                    <a class="secondary" href="#">Ask a question</a>
+                                    <a class="secondary" href="#"><img src="./assets/img/cart.svg" alt="">Add to
+                                        cart</a>
                                     <a class="primary" href="#">Book now</a>
                                 </div>
 
@@ -547,6 +553,14 @@
                                         <p>up to 24 hours before the experience starts (local time)</p>
                                     </div>
                                 </div>
+                                <div class="card__wrapper-booking-cancel card__wrapper-booking-reserve">
+                                    <span></span>
+                                    <div>
+                                        <h3>Reserve Now and Pay Later</h3>
+                                        <p>Secure your spot while staying flexible</p>
+                                    </div>
+                                </div>
+                                <a class="card__wrapper-booking-question" href="#"><span></span>Ask a question</a>
                             </div>
                             <div class="card__wrapper-aside-flight">
                                 <h3>Find flights to <span>Windhoek</span></h3>
@@ -560,554 +574,579 @@
         <section class="card__wrapper-details-section">
             <div class="container">
                 <div class="card__wrapper-details">
-                        <nav class="card__wrapper-details-nav" aria-label="Tour sections">
-                            <div class="card__wrapper-details-tabs">
-                                <a class="active" href="#overview">Overview</a>
-                                <a href="#itinerary">Itinerary</a>
-                                <a href="#included">Included</a>
-                                <a href="#accommodation">Accommodation</a>
-                                <a href="#add-ons">Add-ons</a>
-                                <a href="#reviews">Reviews</a>
-                                <a href="#faq">FAQ</a>
-                                <a href="#similar">Similar Tours</a>
-                            </div>
-                            <div class="card__wrapper-details-buy">
-                                <span>Deposit today <b>&euro;450.00</b></span>
-                                <a href="#">Buy now</a>
-                            </div>
-                        </nav>
+                    <nav class="card__wrapper-details-nav" aria-label="Tour sections">
+                        <div class="card__wrapper-details-tabs">
+                            <a class="active" href="#overview">Overview</a>
+                            <a href="#itinerary">Itinerary</a>
+                            <a href="#included">Included</a>
+                            <a href="#accommodation">Accommodation</a>
+                            <a href="#add-ons">Add-ons</a>
+                            <a href="#reviews">Reviews</a>
+                            <a href="#faq">FAQ</a>
+                            <a href="#similar">Similar Tours</a>
+                        </div>
+                        <div class="card__wrapper-details-buy">
+                            <span>Deposit today <b>&euro;450.00</b></span>
+                            <a href="#">Buy now</a>
+                        </div>
+                    </nav>
 
-                        <section class="card__wrapper-details-card card__wrapper-details-overview" id="overview">
-                            <h2>Overview</h2>
-                            <p>Get a different perspective on the Yucatán region than the beaches and bars of Cancún.
-                                This day tour takes you to see the Maya city of Chichén Itzá, the colonial architecture
-                                of Valladolid, and to cool off with a dip in a cenote. Includes a buffet lunch with an
-                                open bar.</p>
-                            <ul>
-                                <li>Skip the hassle of renting a car by joining a guided tour</li>
-                                <li>Hassle-free pickup and drop-off from your hotel</li>
-                                <li>Enjoy the VIP experience with an international open bar</li>
-                                <li>Learn about local history and culture from your guide</li>
-                            </ul>
-                            <a class="card__wrapper-details-orange" href="#">Book now</a>
-                        </section>
+                    <section class="card__wrapper-details-card card__wrapper-details-overview" id="overview">
+                        <h2>Overview</h2>
+                        <p>Get a different perspective on the Yucatán region than the beaches and bars of Cancún.
+                            This day tour takes you to see the Maya city of Chichén Itzá, the colonial architecture
+                            of Valladolid, and to cool off with a dip in a cenote. Includes a buffet lunch with an
+                            open bar.</p>
+                        <ul>
+                            <li>Skip the hassle of renting a car by joining a guided tour</li>
+                            <li>Hassle-free pickup and drop-off from your hotel</li>
+                            <li>Enjoy the VIP experience with an international open bar</li>
+                            <li>Learn about local history and culture from your guide</li>
+                        </ul>
+                        <a class="card__wrapper-details-orange" href="#">Book now</a>
+                    </section>
 
-                        <section class="card__wrapper-details-card card__wrapper-details-itinerary" id="itinerary">
-                            <h2>Itinerary</h2>
-                            <div class="card__wrapper-itinerary">
-                                <article class="card__wrapper-itinerary-day">
-                                    <button class="card__wrapper-itinerary-row" type="button" data-itinerary-toggle
-                                        aria-expanded="false">
-                                        <span>Day 1</span>
-                                        <div>
-                                            <h3>Cape Town - Oudtshoorn</h3>
-                                            <p>1 Stop</p>
-                                        </div>
-                                        <i aria-hidden="true"></i>
-                                    </button>
-                                    <div class="card__wrapper-itinerary-panel" hidden>
-                                        <div class="card__wrapper-itinerary-timeline">
-                                            <article>
-                                                <span>1</span>
-                                                <div class="card__wrapper-itinerary-copy">
-                                                    <h3>Route 62 Drive</h3>
-                                                    <p>Leave Cape Town in the morning and travel through changing
-                                                        mountain scenery toward Oudtshoorn. Stop for coffee, wide-open
-                                                        views, and a relaxed introduction to the Garden Route.</p>
-                                                    <a href="#">Show more</a>
-                                                    <strong>6 hours • Scenic drive included</strong>
-                                                </div>
-                                                <div class="card__wrapper-itinerary-gallery single">
-                                                    <img src="./assets/img/figma/3ca4522a6363c23e25b4c8758b2dd4e7bc8956c2.png"
-                                                        alt="Garden Route mountains">
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="card__wrapper-itinerary-meta">
-                                            <div>
-                                                <img src="./assets/img/hotel.svg" alt="Accommodation">
-                                                <span>Accommodation</span>
-                                                <p>Oudtshoorn, 3 star Comfort</p>
-                                            </div>
-                                            <div>
-                                                <img src="./assets/img/restaurant.svg" alt="Meals">
-                                                <span>Meals</span>
-                                                <p>Breakfast included</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-
-                                <article class="card__wrapper-itinerary-day active">
-                                    <button class="card__wrapper-itinerary-row open" type="button"
-                                        data-itinerary-toggle aria-expanded="true">
-                                        <span>Day 2</span>
-                                        <div>
-                                            <h3>Oudtshoorn - Sedgefield</h3>
-                                            <p>3 Stops</p>
-                                        </div>
-                                        <i aria-hidden="true"></i>
-                                    </button>
-                                    <div class="card__wrapper-itinerary-panel">
-                                        <div class="card__wrapper-itinerary-timeline">
-                                            <article>
-                                                <span>1</span>
-                                                <div class="card__wrapper-itinerary-copy">
-                                                    <h3>Cango Caves</h3>
-                                                    <p>Begin your 3-day packed and fast-paced journey along the Garden
-                                                        Route from Cape Town with a drive on South Africa's scenic
-                                                        Route 62. If your focus is to see as much as possible in 3 days,
-                                                        this adventure is for you. ( Travel route: about 450km / 6
-                                                        hours )</p>
-                                                    <a href="#">Show more</a>
-                                                    <strong>1 hour • Admission Ticket Included</strong>
-                                                </div>
-                                                <div class="card__wrapper-itinerary-gallery" aria-label="Day 2 photos">
-                                                    <img src="./assets/img/figma/39b310b1697b972852df6d773f30f9813e7a90d7.png"
-                                                        alt="Elephants at water">
-                                                    <img src="./assets/img/figma/4d0d59109d6be89bfe9fd10a0824017ff5a86bd0.png"
-                                                        alt="Penguins on the beach">
-                                                    <img src="./assets/img/figma/26d9748aeea18dd64ae38dacc5bae6fea37e7e93.png"
-                                                        alt="Kilimanjaro landscape">
-                                                    <img src="./assets/img/figma/581c4de5e86672eb1f46b58fbb82cf2b0be9160c.png"
-                                                        alt="Savanna view">
-                                                </div>
-                                            </article>
-                                            <article>
-                                                <span>2</span>
-                                                <div class="card__wrapper-itinerary-copy">
-                                                    <h3>Buffelsdrift Game Lodge - Activities</h3>
-                                                    <p>Check out of your Oudtshoorn accommodation in the morning, and
-                                                        take part in an optional orphaned "elephant observation in
-                                                        nature" experience (at own expense) at a nearby reserve as you
-                                                        observe and follow elephant guides alongside these gentle giants
-                                                        in their natural bushvelt environment.</p>
-                                                    <a href="#">Show more</a>
-                                                    <strong>45 minutes • Admission Ticket Not Included</strong>
-                                                </div>
-                                            </article>
-                                            <article>
-                                                <span>3</span>
-                                                <div class="card__wrapper-itinerary-copy">
-                                                    <h3>Bloukrans Bridge</h3>
-                                                    <p>Relax on a scenic coastal drive, enjoying views of Knysna,
-                                                        Plettenberg Bay and Nature's Valley, and prepare for the
-                                                        adrenaline-rushing view that lies ahead: one of the world's
-                                                        highest bungee sites at Bloukrans Bridge. Standing 709 feet
-                                                        (216 meters) above the Bloukrans River, the bridge is the
-                                                        perfect</p>
-                                                    <a href="#">Show more</a>
-                                                    <strong>3 hours • Admission Ticket Not Included</strong>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="card__wrapper-itinerary-meta">
-                                            <div>
-                                                <img src="./assets/img/hotel.svg" alt="Accommodation">
-                                                <span>Accommodation</span>
-                                                <p>Uthando, 3 star Comfort</p>
-                                            </div>
-                                            <div>
-                                                <img src="./assets/img/restaurant.svg" alt="Meals">
-                                                <span>Meals</span>
-                                                <p>Not included</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-
-                                <article class="card__wrapper-itinerary-day">
-                                    <button class="card__wrapper-itinerary-row" type="button" data-itinerary-toggle
-                                        aria-expanded="false">
-                                        <span>Day 3</span>
-                                        <div>
-                                            <h3>Sedgefield - Cape Town</h3>
-                                            <p>2 Stops</p>
-                                        </div>
-                                        <i aria-hidden="true"></i>
-                                    </button>
-                                    <div class="card__wrapper-itinerary-panel" hidden>
-                                        <div class="card__wrapper-itinerary-timeline">
-                                            <article>
-                                                <span>1</span>
-                                                <div class="card__wrapper-itinerary-copy">
-                                                    <h3>Knysna Heads</h3>
-                                                    <p>Start the day with lagoon views, coastal cliffs and a relaxed
-                                                        walk before heading back toward Cape Town through the Garden
-                                                        Route's ocean-side towns.</p>
-                                                    <a href="#">Show more</a>
-                                                    <strong>1 hour • Admission Ticket Included</strong>
-                                                </div>
-                                                <div class="card__wrapper-itinerary-gallery" aria-label="Day 3 photos">
-                                                    <img src="./assets/img/figma/49b6b5838b813e697b6ffc8aa8e29cd1dc421e7d.png"
-                                                        alt="Island near Cape Town">
-                                                    <img src="./assets/img/figma/add7831b6c4864bb794f1c6b581d07ece6179b38.png"
-                                                        alt="Rocky beach">
-                                                    <img src="./assets/img/figma/f38d3960240fa35fee59316622f7ae0041dae12f.png"
-                                                        alt="Penguins near coastline">
-                                                    <img src="./assets/img/figma/3ca4522a6363c23e25b4c8758b2dd4e7bc8956c2.png"
-                                                        alt="Mountain viewpoint">
-                                                </div>
-                                            </article>
-                                            <article>
-                                                <span>2</span>
-                                                <div class="card__wrapper-itinerary-copy">
-                                                    <h3>Cape Town Waterfront</h3>
-                                                    <p>Return to Cape Town in the evening and finish with time around
-                                                        the waterfront, where guides help with onward transfers and
-                                                        dinner recommendations.</p>
-                                                    <a href="#">Show more</a>
-                                                    <strong>2 hours • Free time included</strong>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="card__wrapper-itinerary-meta">
-                                            <div>
-                                                <img src="./assets/img/hotel.svg" alt="Accommodation">
-                                                <span>Accommodation</span>
-                                                <p>Cape Town, centrally located hotel</p>
-                                            </div>
-                                            <div>
-                                                <img src="./assets/img/restaurant.svg" alt="Meals">
-                                                <span>Meals</span>
-                                                <p>Breakfast included</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-
-                                <article class="card__wrapper-itinerary-day">
-                                    <button class="card__wrapper-itinerary-row" type="button" data-itinerary-toggle
-                                        aria-expanded="false">
-                                        <span>Day 4</span>
-                                        <div>
-                                            <h3>Cape Town - Oudtshoorn</h3>
-                                            <p>1 Stop</p>
-                                        </div>
-                                        <i aria-hidden="true"></i>
-                                    </button>
-                                    <div class="card__wrapper-itinerary-panel" hidden>
-                                        <div class="card__wrapper-itinerary-timeline">
-                                            <article>
-                                                <span>1</span>
-                                                <div class="card__wrapper-itinerary-copy">
-                                                    <h3>Farewell Morning</h3>
-                                                    <p>Enjoy a calm final morning with a short city stop and transfer
-                                                        support. The guide remains available for airport timing and
-                                                        luggage coordination.</p>
-                                                    <a href="#">Show more</a>
-                                                    <strong>1 hour • Transfer assistance included</strong>
-                                                </div>
-                                                <div class="card__wrapper-itinerary-gallery single">
-                                                    <img src="./assets/img/figma/90524302e93bc28ebd51d86029c1c6c7bf4f27e3.jpg"
-                                                        alt="Cape Town travel view">
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="card__wrapper-itinerary-meta">
-                                            <div>
-                                                <img src="./assets/img/hotel.svg" alt="Accommodation">
-                                                <span>Accommodation</span>
-                                                <p>Not included</p>
-                                            </div>
-                                            <div>
-                                                <img src="./assets/img/restaurant.svg" alt="Meals">
-                                                <span>Meals</span>
-                                                <p>Breakfast included</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                        </section>
-
-                        <section class="card__wrapper-details-card card__wrapper-details-included" id="included">
-                            <div>
-                                <h2>Included</h2>
-                                <ul class="check">
-                                    <li>Meeting at the flight airport (Aeroflot, arrival 16:35)</li>
-                                    <li>Who arrives on other flights - we'll show you how to team up with the group</li>
-                                    <li>Entrance with towel into the Blue Lagoon</li>
-                                    <li>Services of an English Speaking Icelandic Guide</li>
-                                    <li>Transportation in heated coaches with free Wi-Fi on board</li>
-                                    <li>Northern Lights programme during 6 evenings with lectures, presentations, film
-                                        and guided searches for the Northern Lights and midnight refreshments</li>
-                                </ul>
-                                <a href="#">Show more</a>
-                            </div>
-                            <div>
-                                <h2>Not included</h2>
-                                <ul class="cross">
-                                    <li>Flights</li>
-                                    <li>Personal expenses, alcohol</li>
-                                    <li>Single accommodation: +240$</li>
-                                    <li>Meals in Bishkek (2 dinners and lunch: $6-10 each)</li>
-                                    <li>Horse riding: $40 Boat ride on Issyk Kul: $40</li>
-                                    <li>Gratuity for your tour guide. Tipping your tour guide is an entirely personal
-                                        gesture</li>
-                                </ul>
-                            </div>
-                        </section>
-
-                        <section class="card__wrapper-flight">
-                            <div>
-                                <h2>Find flights to <span>Windhoek</span></h2>
-                                <a href="#">Search</a>
-                            </div>
-                            <img class="cloud one" src="./assets/img/mockup/mockup_image_06.png" alt="">
-                            <img class="plane" src="./assets/img/mockup/mockup_image_08.png" alt="">
-                            <img class="cloud two" src="./assets/img/mockup/mockup_image_07.png" alt="">
-                        </section>
-
-                        <section class="card__wrapper-details-card card__wrapper-accommodation" id="accommodation">
-                            <h2>Accommodation</h2>
-                            <div class="card__wrapper-accommodation-grid">
-                                <article>
-                                    <img class="card__wrapper-accommodation-photo"
-                                        src="./assets/img/figma/5980cabb99861c22ec2785bf0ad1a09e85e6429d.png" alt="Villa Lycus Hotel">
-                                    <span>&starf; 4 Stars Hotel</span>
-                                    <h3>Villa Lycus Hotel</h3>
-                                    <p class="place">Livingstone</p>
-                                    <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
-                                        tranquil retreat just minutes away from one of the world's most magnificent
-                                        natural wonders.</p>
-                                    <a href="#">Show more</a>
-                                </article>
-                                <article>
-                                    <img class="card__wrapper-accommodation-photo"
-                                        src="./assets/img/figma/920f958e7e469dd710b300bd15c9a968ce8c380b.png" alt="Waterfront Edge B5">
-                                    <span>&starf; 4 Stars Hotel</span>
-                                    <h3>Waterfront Edge B5</h3>
-                                    <p class="place">Livingstone</p>
-                                    <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
-                                        tranquil retreat just minutes away from one of the world's most magnificent
-                                        natural wonders.</p>
-                                    <a href="#">Show more</a>
-                                </article>
-                                <article>
-                                    <img class="card__wrapper-accommodation-photo"
-                                        src="./assets/img/figma/1cf190307f12e232d97070dfb53a79147a3c9271.png" alt="Atlantic Melody Waterfront Cottage D3">
-                                    <span>&starf; 4 Stars Hotel</span>
-                                    <h3>Atlantic Melody Waterfront Cottage D3</h3>
-                                    <p class="place">Livingstone</p>
-                                    <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
-                                        tranquil retreat just minutes away from one of the world's most magnificent
-                                        natural wonders.</p>
-                                    <a href="#">Show more</a>
-                                </article>
-                                <article>
-                                    <img class="card__wrapper-accommodation-photo"
-                                        src="./assets/img/figma/85b1a3ba25e79b2d65976842b5e2c285ff066e9e.png" alt="Ocean Melody">
-                                    <span>&starf; 4 Stars Hotel</span>
-                                    <h3>Ocean Melody</h3>
-                                    <p class="place">Livingstone</p>
-                                    <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
-                                        tranquil retreat just minutes away from one of the world's most magnificent
-                                        natural wonders.</p>
-                                    <a href="#">Show more</a>
-                                </article>
-                            </div>
-                        </section>
-
-                        <section class="card__wrapper-details-card card__wrapper-addons" id="add-ons">
-                            <h2>Add-ons</h2>
-                            <h3>Upgrade Your Experience</h3>
-                            <p>Enhance your journey with premium options and comfort upgrades</p>
-                            <div class="card__wrapper-addons-list">
-                                <article>
-                                    <img src="./assets/img/figma/f989dafa2e6165c4d42af31eb48dc67352b243a9.png" alt="City Hotel Dubrovnik">
+                    <section class="card__wrapper-details-card card__wrapper-details-itinerary" id="itinerary">
+                        <h2>Itinerary</h2>
+                        <div class="card__wrapper-itinerary">
+                            <article class="card__wrapper-itinerary-day">
+                                <button class="card__wrapper-itinerary-row" type="button" data-itinerary-toggle
+                                    aria-expanded="false">
+                                    <span>Day 1</span>
                                     <div>
-                                        <h4>City Hotel Dubrovnik</h4>
-                                        <p class="meta">Livingstone <span>&starf;</span> 4 Stars</p>
-                                        <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
-                                            tranquil retreat just minutes away from one of the world's most magnificent
-                                            natural wonders. <a href="#">Show more</a></p>
-                                        <div class="price"><span>From <b>&euro;20.00</b> pp</span><a href="#">Include</a></div>
+                                        <h3>Cape Town - Oudtshoorn</h3>
+                                        <p>1 Stop</p>
                                     </div>
-                                </article>
-                                <article>
-                                    <img src="./assets/img/figma/da240f22ba258380958e8ea4a714d0fb760bf959.png" alt="City Hotel Dubrovnik">
-                                    <div>
-                                        <h4>City Hotel Dubrovnik</h4>
-                                        <p class="meta">Livingstone <span>&starf;</span> 4 Stars</p>
-                                        <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
-                                            tranquil retreat just minutes away from one of the world's most magnificent
-                                            natural wonders. <a href="#">Show more</a></p>
-                                        <div class="price"><span>From <b>&euro;20.00</b> pp</span><a href="#">Include</a></div>
-                                    </div>
-                                </article>
-                            </div>
-                            <h3>Additional Extras</h3>
-                            <p>Enhance your tour with these optional extras, helping you to get the most from your
-                                adventure.</p>
-                            <div class="card__wrapper-addons-list extras">
-                                <article>
-                                    <img src="./assets/img/figma/c7ea9b0c540de6b4a5577c73960989fef4cd6b98.jpg" alt="Windhoek Airport Transfer">
-                                    <div>
-                                        <h4>Windhoek Airport Transfer</h4>
-                                        <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
-                                            tranquil retreat just minutes away from one of the world's most magnificent
-                                            natural wonders.</p>
-                                        <div class="price"><span>From <b>&euro;20.00</b> pp</span><a href="#">Add to cart</a></div>
-                                    </div>
-                                </article>
-                                <article>
-                                    <img src="./assets/img/figma/72bf14c16144801533403072d6ff8cae6292b131.png" alt="Wildlife Tour">
-                                    <div>
-                                        <h4>South African Wildlife Tour with 4x4 Safari</h4>
-                                        <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
-                                            tranquil retreat just minutes away from one of the world's most magnificent
-                                            natural wonders.</p>
-                                        <div class="price"><span>From <b>&euro;180.00</b> pp</span><a href="#">Add to cart</a></div>
-                                    </div>
-                                </article>
-                            </div>
-                        </section>
-
-                        <section class="card__wrapper-details-card card__wrapper-reviews" id="reviews">
-                            <h2>Traveler Photos</h2>
-                            <div class="card__wrapper-traveler-photos">
-                                <img src="./assets/img/figma/e6bdb8f4de7b1a55dafad5ae338ec863f41dcda9.png" alt="Traveler photo">
-                                <img src="./assets/img/figma/39b310b1697b972852df6d773f30f9813e7a90d7.png" alt="Traveler photo">
-                                <img src="./assets/img/figma/4d0d59109d6be89bfe9fd10a0824017ff5a86bd0.png" alt="Traveler photo">
-                                <img src="./assets/img/figma/26d9748aeea18dd64ae38dacc5bae6fea37e7e93.png" alt="Traveler photo">
-                                <a href="#"><img src="./assets/img/photos.svg" alt="">View all</a>
-                            </div>
-                            <h2>Reviews</h2>
-                            <div class="card__wrapper-reviews-layout">
-                                <div class="card__wrapper-reviews-list">
-                                    <article>
-                                        <div class="avatar image"><img src="./assets/img/organizer_logo2.svg" alt="Valentina"></div>
-                                        <div>
-                                            <p class="author">Valentina <span>May 2025</span></p>
-                                            <p class="stars">&starf;&starf;&starf;&starf;&starf; <b>5.0</b></p>
-                                            <h3>Amazing experience</h3>
-                                            <p>For me it was almost an ideal tour in terms of organization. Support and
-                                                comfortable travel along the route. There was time to explore the
-                                                country on your own; you could walk both in the desert and around the
-                                                city. This is an important moment for me, the opportunity to explore the
-                                                surrounding space on my own, immersing myself in the atmosphere of the
-                                                city and streets. Look at houses, people. Most group tours don't have
-                                                this; we run in a crowd from point to point and back to the bus.</p>
-                                            <a href="#">Show more</a>
-                                            <div class="card__wrapper-review-gallery">
-                                                <img src="./assets/img/figma/91634ae5cbd119bdda1b3bab65f1798bfb2874f2.png" alt="Review photo">
-                                                <img src="./assets/img/figma/fa7048087f8a599bd8574bc3c0f401d9448bf29c.png" alt="Review photo">
-                                                <img src="./assets/img/figma/f6e0a98a382f93a2933b722d7bfaf5c8b7dea5b8.png" alt="Review photo">
-                                                <img src="./assets/img/figma/26d9748aeea18dd64ae38dacc5bae6fea37e7e93.png" alt="Review photo">
-                                                <span>+6</span>
+                                    <i aria-hidden="true"></i>
+                                </button>
+                                <div class="card__wrapper-itinerary-panel" hidden>
+                                    <div class="card__wrapper-itinerary-timeline">
+                                        <article>
+                                            <span>1</span>
+                                            <div class="card__wrapper-itinerary-copy">
+                                                <h3>Route 62 Drive</h3>
+                                                <p>Leave Cape Town in the morning and travel through changing
+                                                    mountain scenery toward Oudtshoorn. Stop for coffee, wide-open
+                                                    views, and a relaxed introduction to the Garden Route.</p>
+                                                <a href="#">Show more</a>
+                                                <strong>6 hours • Scenic drive included</strong>
                                             </div>
-                                        </div>
-                                    </article>
-                                    <article>
-                                        <div class="avatar">P</div>
+                                            <div class="card__wrapper-itinerary-gallery single">
+                                                <img src="./assets/img/figma/3ca4522a6363c23e25b4c8758b2dd4e7bc8956c2.png"
+                                                    alt="Garden Route mountains">
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="card__wrapper-itinerary-meta">
                                         <div>
-                                            <p class="author">Pedro <span>May 2025</span></p>
-                                            <p class="stars">&starf;&starf;&starf;&starf;&starf; <b>5.0</b></p>
-                                            <h3>Amazing experience</h3>
-                                            <p>For me it was almost an ideal tour in terms of organization. Support and
-                                                comfortable travel along the route. There was time to explore the
-                                                country on your own; you could walk both in the desert and around the
-                                                city. This is an important moment for me, the opportunity to explore the
-                                                surrounding space on my own, immersing myself in the atmosphere of the
-                                                city and streets.</p>
-                                            <a href="#">Show more</a>
+                                            <img src="./assets/img/hotel.svg" alt="Accommodation">
+                                            <span>Accommodation</span>
+                                            <p>Oudtshoorn, 3 star Comfort</p>
                                         </div>
-                                    </article>
-                                    <article>
-                                        <div class="avatar image"><img src="./assets/img/organizer_logo.svg" alt="Valentina"></div>
                                         <div>
-                                            <p class="author">Valentina <span>May 2025</span></p>
-                                            <p class="stars">&starf;&starf;&starf;&starf;&starf; <b>5.0</b></p>
-                                            <h3>Amazing experience</h3>
-                                            <p>For me it was almost an ideal tour in terms of organization. Support and
-                                                comfortable travel along the route. There was time to explore the
-                                                country on your own; you could walk both in the desert and around the
-                                                city.</p>
-                                            <a href="#">Show more</a>
+                                            <img src="./assets/img/restaurant.svg" alt="Meals">
+                                            <span>Meals</span>
+                                            <p>Breakfast included</p>
                                         </div>
-                                    </article>
-                                    <button type="button">See all reviews</button>
+                                    </div>
                                 </div>
-                                <aside class="card__wrapper-rating-panel">
-                                    <div class="score"><b>4.5</b><span>&starf;&starf;&starf;&starf;&starf;</span><p>based on 209 reviews</p></div>
-                                    <div class="bars">
-                                        <h3>Overall Rating</h3>
-                                        <p><span>5 stars</span><i style="--w: 100%"></i><b>200</b></p>
-                                        <p><span>4 stars</span><i style="--w: 9%"></i><b>8</b></p>
-                                        <p><span>3 stars</span><i style="--w: 0%"></i><b>0</b></p>
-                                        <p><span>2 stars</span><i style="--w: 4%"></i><b>1</b></p>
-                                        <p><span>1 stars</span><i style="--w: 0%"></i><b>0</b></p>
+                            </article>
+
+                            <article class="card__wrapper-itinerary-day active">
+                                <button class="card__wrapper-itinerary-row open" type="button" data-itinerary-toggle
+                                    aria-expanded="true">
+                                    <span>Day 2</span>
+                                    <div>
+                                        <h3>Oudtshoorn - Sedgefield</h3>
+                                        <p>3 Stops</p>
                                     </div>
-                                    <p class="checks">We perform checks on reviews</p>
-                                </aside>
-                            </div>
-                        </section>
+                                    <i aria-hidden="true"></i>
+                                </button>
+                                <div class="card__wrapper-itinerary-panel">
+                                    <div class="card__wrapper-itinerary-timeline">
+                                        <article>
+                                            <span>1</span>
+                                            <div class="card__wrapper-itinerary-copy">
+                                                <h3>Cango Caves</h3>
+                                                <p>Begin your 3-day packed and fast-paced journey along the Garden
+                                                    Route from Cape Town with a drive on South Africa's scenic
+                                                    Route 62. If your focus is to see as much as possible in 3 days,
+                                                    this adventure is for you. ( Travel route: about 450km / 6
+                                                    hours )</p>
+                                                <a href="#">Show more</a>
+                                                <strong>1 hour • Admission Ticket Included</strong>
+                                            </div>
+                                            <div class="card__wrapper-itinerary-gallery" aria-label="Day 2 photos">
+                                                <img src="./assets/img/figma/39b310b1697b972852df6d773f30f9813e7a90d7.png"
+                                                    alt="Elephants at water">
+                                                <img src="./assets/img/figma/4d0d59109d6be89bfe9fd10a0824017ff5a86bd0.png"
+                                                    alt="Penguins on the beach">
+                                                <img src="./assets/img/figma/26d9748aeea18dd64ae38dacc5bae6fea37e7e93.png"
+                                                    alt="Kilimanjaro landscape">
+                                                <img src="./assets/img/figma/581c4de5e86672eb1f46b58fbb82cf2b0be9160c.png"
+                                                    alt="Savanna view">
+                                            </div>
+                                        </article>
+                                        <article>
+                                            <span>2</span>
+                                            <div class="card__wrapper-itinerary-copy">
+                                                <h3>Buffelsdrift Game Lodge - Activities</h3>
+                                                <p>Check out of your Oudtshoorn accommodation in the morning, and
+                                                    take part in an optional orphaned "elephant observation in
+                                                    nature" experience (at own expense) at a nearby reserve as you
+                                                    observe and follow elephant guides alongside these gentle giants
+                                                    in their natural bushvelt environment.</p>
+                                                <a href="#">Show more</a>
+                                                <strong>45 minutes • Admission Ticket Not Included</strong>
+                                            </div>
+                                        </article>
+                                        <article>
+                                            <span>3</span>
+                                            <div class="card__wrapper-itinerary-copy">
+                                                <h3>Bloukrans Bridge</h3>
+                                                <p>Relax on a scenic coastal drive, enjoying views of Knysna,
+                                                    Plettenberg Bay and Nature's Valley, and prepare for the
+                                                    adrenaline-rushing view that lies ahead: one of the world's
+                                                    highest bungee sites at Bloukrans Bridge. Standing 709 feet
+                                                    (216 meters) above the Bloukrans River, the bridge is the
+                                                    perfect</p>
+                                                <a href="#">Show more</a>
+                                                <strong>3 hours • Admission Ticket Not Included</strong>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="card__wrapper-itinerary-meta">
+                                        <div>
+                                            <img src="./assets/img/hotel.svg" alt="Accommodation">
+                                            <span>Accommodation</span>
+                                            <p>Uthando, 3 star Comfort</p>
+                                        </div>
+                                        <div>
+                                            <img src="./assets/img/restaurant.svg" alt="Meals">
+                                            <span>Meals</span>
+                                            <p>Not included</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
 
-                        <section class="card__wrapper-details-card card__wrapper-faq" id="faq">
-                            <h2>FAQ</h2>
-                            <button type="button">Do I need a visa to join the tour?</button>
-                            <button type="button">What is included in the tour price and what is not?</button>
-                            <button type="button">Do I need travel insurance and what are the requirements?</button>
-                            <button type="button">Can I cancel or reschedule my booking? What are the conditions?</button>
-                            <a href="#">Ask a question</a>
-                        </section>
+                            <article class="card__wrapper-itinerary-day">
+                                <button class="card__wrapper-itinerary-row" type="button" data-itinerary-toggle
+                                    aria-expanded="false">
+                                    <span>Day 3</span>
+                                    <div>
+                                        <h3>Sedgefield - Cape Town</h3>
+                                        <p>2 Stops</p>
+                                    </div>
+                                    <i aria-hidden="true"></i>
+                                </button>
+                                <div class="card__wrapper-itinerary-panel" hidden>
+                                    <div class="card__wrapper-itinerary-timeline">
+                                        <article>
+                                            <span>1</span>
+                                            <div class="card__wrapper-itinerary-copy">
+                                                <h3>Knysna Heads</h3>
+                                                <p>Start the day with lagoon views, coastal cliffs and a relaxed
+                                                    walk before heading back toward Cape Town through the Garden
+                                                    Route's ocean-side towns.</p>
+                                                <a href="#">Show more</a>
+                                                <strong>1 hour • Admission Ticket Included</strong>
+                                            </div>
+                                            <div class="card__wrapper-itinerary-gallery" aria-label="Day 3 photos">
+                                                <img src="./assets/img/figma/49b6b5838b813e697b6ffc8aa8e29cd1dc421e7d.png"
+                                                    alt="Island near Cape Town">
+                                                <img src="./assets/img/figma/add7831b6c4864bb794f1c6b581d07ece6179b38.png"
+                                                    alt="Rocky beach">
+                                                <img src="./assets/img/figma/f38d3960240fa35fee59316622f7ae0041dae12f.png"
+                                                    alt="Penguins near coastline">
+                                                <img src="./assets/img/figma/3ca4522a6363c23e25b4c8758b2dd4e7bc8956c2.png"
+                                                    alt="Mountain viewpoint">
+                                            </div>
+                                        </article>
+                                        <article>
+                                            <span>2</span>
+                                            <div class="card__wrapper-itinerary-copy">
+                                                <h3>Cape Town Waterfront</h3>
+                                                <p>Return to Cape Town in the evening and finish with time around
+                                                    the waterfront, where guides help with onward transfers and
+                                                    dinner recommendations.</p>
+                                                <a href="#">Show more</a>
+                                                <strong>2 hours • Free time included</strong>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="card__wrapper-itinerary-meta">
+                                        <div>
+                                            <img src="./assets/img/hotel.svg" alt="Accommodation">
+                                            <span>Accommodation</span>
+                                            <p>Cape Town, centrally located hotel</p>
+                                        </div>
+                                        <div>
+                                            <img src="./assets/img/restaurant.svg" alt="Meals">
+                                            <span>Meals</span>
+                                            <p>Breakfast included</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
 
-                        <section class="card__wrapper-similar" id="similar">
-                            <h2>Similar Tours</h2>
-                            <button class="arrow prev" type="button" aria-label="Previous tour"></button>
-                            <div class="card__wrapper-similar-list">
+                            <article class="card__wrapper-itinerary-day">
+                                <button class="card__wrapper-itinerary-row" type="button" data-itinerary-toggle
+                                    aria-expanded="false">
+                                    <span>Day 4</span>
+                                    <div>
+                                        <h3>Cape Town - Oudtshoorn</h3>
+                                        <p>1 Stop</p>
+                                    </div>
+                                    <i aria-hidden="true"></i>
+                                </button>
+                                <div class="card__wrapper-itinerary-panel" hidden>
+                                    <div class="card__wrapper-itinerary-timeline">
+                                        <article>
+                                            <span>1</span>
+                                            <div class="card__wrapper-itinerary-copy">
+                                                <h3>Farewell Morning</h3>
+                                                <p>Enjoy a calm final morning with a short city stop and transfer
+                                                    support. The guide remains available for airport timing and
+                                                    luggage coordination.</p>
+                                                <a href="#">Show more</a>
+                                                <strong>1 hour • Transfer assistance included</strong>
+                                            </div>
+                                            <div class="card__wrapper-itinerary-gallery single">
+                                                <img src="./assets/img/figma/90524302e93bc28ebd51d86029c1c6c7bf4f27e3.jpg"
+                                                    alt="Cape Town travel view">
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="card__wrapper-itinerary-meta">
+                                        <div>
+                                            <img src="./assets/img/hotel.svg" alt="Accommodation">
+                                            <span>Accommodation</span>
+                                            <p>Not included</p>
+                                        </div>
+                                        <div>
+                                            <img src="./assets/img/restaurant.svg" alt="Meals">
+                                            <span>Meals</span>
+                                            <p>Breakfast included</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="card__wrapper-details-card card__wrapper-details-included" id="included">
+                        <div>
+                            <h2>Included</h2>
+                            <ul class="check">
+                                <li>Meeting at the flight airport (Aeroflot, arrival 16:35)</li>
+                                <li>Who arrives on other flights - we'll show you how to team up with the group</li>
+                                <li>Entrance with towel into the Blue Lagoon</li>
+                                <li>Services of an English Speaking Icelandic Guide</li>
+                                <li>Transportation in heated coaches with free Wi-Fi on board</li>
+                                <li>Northern Lights programme during 6 evenings with lectures, presentations, film
+                                    and guided searches for the Northern Lights and midnight refreshments</li>
+                            </ul>
+                            <a href="#">Show more</a>
+                        </div>
+                        <div>
+                            <h2>Not included</h2>
+                            <ul class="cross">
+                                <li>Flights</li>
+                                <li>Personal expenses, alcohol</li>
+                                <li>Single accommodation: +240$</li>
+                                <li>Meals in Bishkek (2 dinners and lunch: $6-10 each)</li>
+                                <li>Horse riding: $40 Boat ride on Issyk Kul: $40</li>
+                                <li>Gratuity for your tour guide. Tipping your tour guide is an entirely personal
+                                    gesture</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="card__wrapper-flight">
+                        <div>
+                            <h2>Find flights to <span>Windhoek</span></h2>
+                            <a href="#">Search</a>
+                        </div>
+                    </section>
+
+                    <section class="card__wrapper-details-card card__wrapper-accommodation" id="accommodation">
+                        <h2>Accommodation</h2>
+                        <div class="card__wrapper-accommodation-grid">
+                            <article>
+                                <img class="card__wrapper-accommodation-photo"
+                                    src="./assets/img/figma/5980cabb99861c22ec2785bf0ad1a09e85e6429d.png"
+                                    alt="Villa Lycus Hotel">
+                                <span>&starf; 4 Stars Hotel</span>
+                                <h3>Villa Lycus Hotel</h3>
+                                <p class="place">Livingstone</p>
+                                <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
+                                    tranquil retreat just minutes away from one of the world's most magnificent
+                                    natural wonders.</p>
+                                <a href="#">Show more</a>
+                            </article>
+                            <article>
+                                <img class="card__wrapper-accommodation-photo"
+                                    src="./assets/img/figma/920f958e7e469dd710b300bd15c9a968ce8c380b.png"
+                                    alt="Waterfront Edge B5">
+                                <span>&starf; 4 Stars Hotel</span>
+                                <h3>Waterfront Edge B5</h3>
+                                <p class="place">Livingstone</p>
+                                <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
+                                    tranquil retreat just minutes away from one of the world's most magnificent
+                                    natural wonders.</p>
+                                <a href="#">Show more</a>
+                            </article>
+                            <article>
+                                <img class="card__wrapper-accommodation-photo"
+                                    src="./assets/img/figma/1cf190307f12e232d97070dfb53a79147a3c9271.png"
+                                    alt="Atlantic Melody Waterfront Cottage D3">
+                                <span>&starf; 4 Stars Hotel</span>
+                                <h3>Atlantic Melody Waterfront Cottage D3</h3>
+                                <p class="place">Livingstone</p>
+                                <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
+                                    tranquil retreat just minutes away from one of the world's most magnificent
+                                    natural wonders.</p>
+                                <a href="#">Show more</a>
+                            </article>
+                            <article>
+                                <img class="card__wrapper-accommodation-photo"
+                                    src="./assets/img/figma/85b1a3ba25e79b2d65976842b5e2c285ff066e9e.png"
+                                    alt="Ocean Melody">
+                                <span>&starf; 4 Stars Hotel</span>
+                                <h3>Ocean Melody</h3>
+                                <p class="place">Livingstone</p>
+                                <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
+                                    tranquil retreat just minutes away from one of the world's most magnificent
+                                    natural wonders.</p>
+                                <a href="#">Show more</a>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="card__wrapper-details-card card__wrapper-addons" id="add-ons">
+                        <h2>Add-ons</h2>
+                        <h3>Upgrade Your Experience</h3>
+                        <p>Enhance your journey with premium options and comfort upgrades</p>
+                        <div class="card__wrapper-addons-list">
+                            <article>
+                                <img src="./assets/img/figma/f989dafa2e6165c4d42af31eb48dc67352b243a9.png"
+                                    alt="City Hotel Dubrovnik">
+                                <div>
+                                    <h4>City Hotel Dubrovnik</h4>
+                                    <p class="meta">Livingstone <span>&starf;</span> 4 Stars</p>
+                                    <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
+                                        tranquil retreat just minutes away from one of the world's most magnificent
+                                        natural wonders. <a href="#">Show more</a></p>
+                                    <div class="price"><span>From <b>&euro;20.00</b> pp</span><a href="#">Include</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/figma/da240f22ba258380958e8ea4a714d0fb760bf959.png"
+                                    alt="City Hotel Dubrovnik">
+                                <div>
+                                    <h4>City Hotel Dubrovnik</h4>
+                                    <p class="meta">Livingstone <span>&starf;</span> 4 Stars</p>
+                                    <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
+                                        tranquil retreat just minutes away from one of the world's most magnificent
+                                        natural wonders. <a href="#">Show more</a></p>
+                                    <div class="price"><span>From <b>&euro;20.00</b> pp</span><a href="#">Include</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <h3>Additional Extras</h3>
+                        <p>Enhance your tour with these optional extras, helping you to get the most from your
+                            adventure.</p>
+                        <div class="card__wrapper-addons-list extras">
+                            <article>
+                                <img src="./assets/img/figma/c7ea9b0c540de6b4a5577c73960989fef4cd6b98.jpg"
+                                    alt="Windhoek Airport Transfer">
+                                <div>
+                                    <h4>Windhoek Airport Transfer</h4>
+                                    <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
+                                        tranquil retreat just minutes away from one of the world's most magnificent
+                                        natural wonders.</p>
+                                    <div class="price"><span>From <b>&euro;20.00</b> pp</span><a href="#">Add to
+                                            cart</a></div>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/img/figma/72bf14c16144801533403072d6ff8cae6292b131.png"
+                                    alt="Wildlife Tour">
+                                <div>
+                                    <h4>South African Wildlife Tour with 4x4 Safari</h4>
+                                    <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
+                                        tranquil retreat just minutes away from one of the world's most magnificent
+                                        natural wonders.</p>
+                                    <div class="price"><span>From <b>&euro;180.00</b> pp</span><a href="#">Add to
+                                            cart</a></div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="card__wrapper-details-card card__wrapper-reviews" id="reviews">
+                        <h2>Traveler Photos</h2>
+                        <div class="card__wrapper-traveler-photos">
+                            <img src="./assets/img/figma/e6bdb8f4de7b1a55dafad5ae338ec863f41dcda9.png"
+                                alt="Traveler photo">
+                            <img src="./assets/img/figma/39b310b1697b972852df6d773f30f9813e7a90d7.png"
+                                alt="Traveler photo">
+                            <img src="./assets/img/figma/4d0d59109d6be89bfe9fd10a0824017ff5a86bd0.png"
+                                alt="Traveler photo">
+                            <img src="./assets/img/figma/26d9748aeea18dd64ae38dacc5bae6fea37e7e93.png"
+                                alt="Traveler photo">
+                            <a href="#"><img src="./assets/img/photos.svg" alt="">View all</a>
+                        </div>
+                        <h2>Reviews</h2>
+                        <div class="card__wrapper-reviews-layout">
+                            <div class="card__wrapper-reviews-list">
                                 <article>
-                                    <img class="photo" src="./assets/img/figma/add7831b6c4864bb794f1c6b581d07ece6179b38.png" alt="Cape of Good Hope">
-                                    <span>&starf; 3.5</span>
-                                    <p>Cape Town, Western Cape</p>
-                                    <h3>Cape of Good Hope and Boulders Penguins Day Tour from Cape Town</h3>
-                                    <ul>
-                                        <li><img src="./assets/img/duration.svg" alt="">10 days / 9 nights</li>
-                                        <li><img src="./assets/img/group.svg" alt="">Up to 10 people</li>
-                                        <li><img src="./assets/img/tour.svg" alt="">Author-led expedition</li>
-                                    </ul>
-                                    <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
+                                    <div class="avatar image"><img src="./assets/img/organizer_logo2.svg"
+                                            alt="Valentina"></div>
+                                    <div>
+                                        <p class="author">Valentina <span>May 2025</span></p>
+                                        <p class="stars">&starf;&starf;&starf;&starf;&starf; <b>5.0</b></p>
+                                        <h3>Amazing experience</h3>
+                                        <p>For me it was almost an ideal tour in terms of organization. Support and
+                                            comfortable travel along the route. There was time to explore the
+                                            country on your own; you could walk both in the desert and around the
+                                            city. This is an important moment for me, the opportunity to explore the
+                                            surrounding space on my own, immersing myself in the atmosphere of the
+                                            city and streets. Look at houses, people. Most group tours don't have
+                                            this; we run in a crowd from point to point and back to the bus.</p>
+                                        <a href="#">Show more</a>
+                                        <div class="card__wrapper-review-gallery">
+                                            <img src="./assets/img/figma/91634ae5cbd119bdda1b3bab65f1798bfb2874f2.png"
+                                                alt="Review photo">
+                                            <img src="./assets/img/figma/fa7048087f8a599bd8574bc3c0f401d9448bf29c.png"
+                                                alt="Review photo">
+                                            <img src="./assets/img/figma/f6e0a98a382f93a2933b722d7bfaf5c8b7dea5b8.png"
+                                                alt="Review photo">
+                                            <img src="./assets/img/figma/26d9748aeea18dd64ae38dacc5bae6fea37e7e93.png"
+                                                alt="Review photo">
+                                            <span>+6</span>
+                                        </div>
+                                    </div>
                                 </article>
                                 <article>
-                                    <img class="photo" src="./assets/img/figma/f38d3960240fa35fee59316622f7ae0041dae12f.png" alt="Cape of Good Hope">
-                                    <span>&starf; 3.5</span>
-                                    <p>Cape Town, Western Cape</p>
-                                    <h3>Cape of Good Hope and Boulders Penguins Day Tour from Cape Town</h3>
-                                    <ul>
-                                        <li><img src="./assets/img/duration.svg" alt="">10 days / 9 nights</li>
-                                        <li><img src="./assets/img/group.svg" alt="">Up to 10 people</li>
-                                        <li><img src="./assets/img/tour.svg" alt="">Author-led expedition</li>
-                                    </ul>
-                                    <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
+                                    <div class="avatar">P</div>
+                                    <div>
+                                        <p class="author">Pedro <span>May 2025</span></p>
+                                        <p class="stars">&starf;&starf;&starf;&starf;&starf; <b>5.0</b></p>
+                                        <h3>Amazing experience</h3>
+                                        <p>For me it was almost an ideal tour in terms of organization. Support and
+                                            comfortable travel along the route. There was time to explore the
+                                            country on your own; you could walk both in the desert and around the
+                                            city. This is an important moment for me, the opportunity to explore the
+                                            surrounding space on my own, immersing myself in the atmosphere of the
+                                            city and streets.</p>
+                                        <a href="#">Show more</a>
+                                    </div>
                                 </article>
                                 <article>
-                                    <img class="photo" src="./assets/img/figma/49b6b5838b813e697b6ffc8aa8e29cd1dc421e7d.png" alt="Cape of Good Hope">
-                                    <span>&starf; 3.5</span>
-                                    <p>Cape Town, Western Cape</p>
-                                    <h3>Cape of Good Hope and Boulders Penguins Day Tour from Cape Town</h3>
-                                    <ul>
-                                        <li><img src="./assets/img/duration.svg" alt="">10 days / 9 nights</li>
-                                        <li><img src="./assets/img/group.svg" alt="">Up to 10 people</li>
-                                        <li><img src="./assets/img/tour.svg" alt="">Author-led expedition</li>
-                                    </ul>
-                                    <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
+                                    <div class="avatar image"><img src="./assets/img/organizer_logo.svg"
+                                            alt="Valentina"></div>
+                                    <div>
+                                        <p class="author">Valentina <span>May 2025</span></p>
+                                        <p class="stars">&starf;&starf;&starf;&starf;&starf; <b>5.0</b></p>
+                                        <h3>Amazing experience</h3>
+                                        <p>For me it was almost an ideal tour in terms of organization. Support and
+                                            comfortable travel along the route. There was time to explore the
+                                            country on your own; you could walk both in the desert and around the
+                                            city.</p>
+                                        <a href="#">Show more</a>
+                                    </div>
                                 </article>
-                                <article>
-                                    <img class="photo" src="./assets/img/figma/581c4de5e86672eb1f46b58fbb82cf2b0be9160c.png" alt="Cape of Good Hope">
-                                    <span>&starf; 3.5</span>
-                                    <p>Cape Town, Western Cape</p>
-                                    <h3>Cape of Good Hope and Boulders Penguins Day Tour from Cape Town</h3>
-                                    <ul>
-                                        <li><img src="./assets/img/duration.svg" alt="">10 days / 9 nights</li>
-                                        <li><img src="./assets/img/group.svg" alt="">Up to 10 people</li>
-                                        <li><img src="./assets/img/tour.svg" alt="">Author-led expedition</li>
-                                    </ul>
-                                    <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
-                                </article>
+                                <button type="button">See all reviews</button>
                             </div>
-                            <button class="arrow next" type="button" aria-label="Next tour"></button>
-                        </section>
+                            <aside class="card__wrapper-rating-panel">
+                                <div class="score"><b>4.5</b><span>&starf;&starf;&starf;&starf;&starf;</span>
+                                    <p>based on 209 reviews</p>
+                                </div>
+                                <div class="bars">
+                                    <h3>Overall Rating</h3>
+                                    <p><span>5 stars</span><i style="--w: 100%"></i><b>200</b></p>
+                                    <p><span>4 stars</span><i style="--w: 9%"></i><b>8</b></p>
+                                    <p><span>3 stars</span><i style="--w: 0%"></i><b>0</b></p>
+                                    <p><span>2 stars</span><i style="--w: 4%"></i><b>1</b></p>
+                                    <p><span>1 stars</span><i style="--w: 0%"></i><b>0</b></p>
+                                </div>
+                                <p class="checks">We perform checks on reviews</p>
+                            </aside>
+                        </div>
+                    </section>
+
+                    <section class="card__wrapper-details-card card__wrapper-faq" id="faq">
+                        <h2>FAQ</h2>
+                        <button type="button">Do I need a visa to join the tour?</button>
+                        <button type="button">What is included in the tour price and what is not?</button>
+                        <button type="button">Do I need travel insurance and what are the requirements?</button>
+                        <button type="button">Can I cancel or reschedule my booking? What are the conditions?</button>
+                        <a href="#">Ask a question</a>
+                    </section>
+
+                    <section class="card__wrapper-similar" id="similar">
+                        <h2>Similar Tours</h2>
+                        <button class="arrow prev" type="button" aria-label="Previous tour"></button>
+                        <div class="card__wrapper-similar-list">
+                            <article>
+                                <img class="photo" src="./assets/img/figma/add7831b6c4864bb794f1c6b581d07ece6179b38.png"
+                                    alt="Cape of Good Hope">
+                                <span>&starf; 3.5</span>
+                                <p>Cape Town, Western Cape</p>
+                                <h3>Cape of Good Hope and Boulders Penguins Day Tour from Cape Town</h3>
+                                <ul>
+                                    <li><img src="./assets/img/duration.svg" alt="">10 days / 9 nights</li>
+                                    <li><img src="./assets/img/group.svg" alt="">Up to 10 people</li>
+                                    <li><img src="./assets/img/tour.svg" alt="">Author-led expedition</li>
+                                </ul>
+                                <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
+                            </article>
+                            <article>
+                                <img class="photo" src="./assets/img/figma/f38d3960240fa35fee59316622f7ae0041dae12f.png"
+                                    alt="Cape of Good Hope">
+                                <span>&starf; 3.5</span>
+                                <p>Cape Town, Western Cape</p>
+                                <h3>Cape of Good Hope and Boulders Penguins Day Tour from Cape Town</h3>
+                                <ul>
+                                    <li><img src="./assets/img/duration.svg" alt="">10 days / 9 nights</li>
+                                    <li><img src="./assets/img/group.svg" alt="">Up to 10 people</li>
+                                    <li><img src="./assets/img/tour.svg" alt="">Author-led expedition</li>
+                                </ul>
+                                <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
+                            </article>
+                            <article>
+                                <img class="photo" src="./assets/img/figma/49b6b5838b813e697b6ffc8aa8e29cd1dc421e7d.png"
+                                    alt="Cape of Good Hope">
+                                <span>&starf; 3.5</span>
+                                <p>Cape Town, Western Cape</p>
+                                <h3>Cape of Good Hope and Boulders Penguins Day Tour from Cape Town</h3>
+                                <ul>
+                                    <li><img src="./assets/img/duration.svg" alt="">10 days / 9 nights</li>
+                                    <li><img src="./assets/img/group.svg" alt="">Up to 10 people</li>
+                                    <li><img src="./assets/img/tour.svg" alt="">Author-led expedition</li>
+                                </ul>
+                                <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
+                            </article>
+                            <article>
+                                <img class="photo" src="./assets/img/figma/581c4de5e86672eb1f46b58fbb82cf2b0be9160c.png"
+                                    alt="Cape of Good Hope">
+                                <span>&starf; 3.5</span>
+                                <p>Cape Town, Western Cape</p>
+                                <h3>Cape of Good Hope and Boulders Penguins Day Tour from Cape Town</h3>
+                                <ul>
+                                    <li><img src="./assets/img/duration.svg" alt="">10 days / 9 nights</li>
+                                    <li><img src="./assets/img/group.svg" alt="">Up to 10 people</li>
+                                    <li><img src="./assets/img/tour.svg" alt="">Author-led expedition</li>
+                                </ul>
+                                <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
+                            </article>
+                        </div>
+                        <button class="arrow next" type="button" aria-label="Next tour"></button>
+                    </section>
                 </div>
             </div>
         </section>
