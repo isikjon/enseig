@@ -63,11 +63,12 @@
                             <div class="navbar__profile-item"><a href="#"><img src="./assets/img/compare.svg"
                                         alt="heart"></a>
                             </div>
-                            <div class="navbar__profile-item"><a href="#"><img src="./assets/img/heart.svg"
-                                        alt="heart"></a>
+                            <div class="navbar__profile-item navbar__profile-item--wishlist"><a href="#"><img
+                                        src="./assets/img/heart.svg" alt="heart"><span
+                                        class="navbar__profile-badge">4</span></a>
                             </div>
-                            <div class="navbar__profile-item"><a href="#"><img src="./assets/img/cart.svg"
-                                        alt="cart"></a>
+                            <div class="navbar__profile-item navbar__profile-item--cart"><a href="#"><img
+                                        src="./assets/img/cart.svg" alt="cart"></a>
                             </div>
                         </div>
                         <div class="navbar__profile-lang">
@@ -121,7 +122,7 @@
                         <a href="#">Climbing Kilimanjaro via the Lemosho route</a>
                     </div>
                     <div class="card__wrapper-info-title">
-                        <h1>Climbing Kilimanjaro via the Lemosho route</h1>
+                        <h1>Climbing Kilimanjaro <br class="mobile-title-break">via the Lemosho route</h1>
                     </div>
                     <div class="card__wrapper-info-filter">
                         <div class="card__wrapper-info-reviews-wrapper">
@@ -422,32 +423,48 @@
                                         </button>
                                     </div>
                                     <div class="card__wrapper-booking-days">
-                                        <button class="card__wrapper-booking-days-item">
+                                        <button
+                                            class="active card__wrapper-booking-days-item-active card__wrapper-booking-days-item"
+                                            type="button"
+                                            data-booking-day data-date="02 Feb 2026" data-price="2476"
+                                            data-total="3460" data-deposit="450" data-balance="8505"
+                                            data-passengers="3 Adults 1 Child" data-due="20 Jul 2026">
                                             <p class="card__wrapper-booking-day">02 Feb</p>
                                             <p class="card__wrapper-booking-group">Small group</p>
                                             <p class="card__wrapper-booking-oldprice">€ 2.476</p>
                                             <p class="card__wrapper-booking-newprice">€ 2.476</p>
                                         </button>
-                                        <button class="card__wrapper-booking-days-item">
+                                        <button class="card__wrapper-booking-days-item" type="button"
+                                            data-booking-day data-date="08 Feb 2026" data-price="2476"
+                                            data-total="3460" data-deposit="450" data-balance="8505"
+                                            data-passengers="3 Adults 1 Child" data-due="20 Jul 2026">
                                             <p class="card__wrapper-booking-day">08 Feb</p>
                                             <p class="card__wrapper-booking-group">Small group</p>
                                             <p class="card__wrapper-booking-oldprice">€ 2.476</p>
                                             <p class="card__wrapper-booking-newprice">€ 2.476</p>
                                         </button>
-                                        <button class="card__wrapper-booking-soldout card__wrapper-booking-days-item">
+                                        <button class="card__wrapper-booking-soldout card__wrapper-booking-days-item"
+                                            type="button" disabled>
                                             <p class="card__wrapper-booking-day">14 Feb</p>
                                             <p class="card__wrapper-booking-group">Small group</p>
                                             <span>Sold Out</span>
                                         </button>
                                         <button
-                                            class="card__wrapper-booking-days-item-active card__wrapper-booking-days-item">
+                                            class="card__wrapper-booking-days-item"
+                                            type="button" data-booking-day data-date="20 Feb 2026" data-price="2476"
+                                            data-total="3460" data-deposit="450" data-balance="8505"
+                                            data-passengers="3 Adults 1 Child" data-due="20 Jul 2026">
                                             <p class="card__wrapper-booking-day">20 Feb</p>
                                             <p class="card__wrapper-booking-group">Small group</p>
                                             <p class="card__wrapper-booking-oldprice">€ 2.476</p>
                                             <p class="card__wrapper-booking-newprice">€ 2.476</p>
                                         </button>
                                         <button
-                                            class="card__wrapper-booking-days-private card__wrapper-booking-days-item">
+                                            class="card__wrapper-booking-days-private card__wrapper-booking-days-item"
+                                            type="button" data-booking-day data-date="Private tours"
+                                            data-price="2476" data-total="3460" data-deposit="650"
+                                            data-balance="8315" data-passengers="3 Adults 1 Child"
+                                            data-due="Flexible date">
                                             <p class="card__wrapper-booking-day">Private tours departing daily</p>
                                             <p class="card__wrapper-booking-oldprice">€ 2.476</p>
                                             <p class="card__wrapper-booking-newprice">€ 2.476</p>
@@ -484,7 +501,7 @@
                                         <div class="card__wrapper-counter">
                                             <button type="button" data-counter-minus
                                                 aria-label="Remove child">−</button>
-                                            <span data-counter-value>2</span>
+                                            <span data-counter-value>0</span>
                                             <button type="button" data-counter-plus aria-label="Add child">+</button>
                                         </div>
                                     </div>
@@ -528,8 +545,7 @@
                                 </div>
 
                                 <div class="card__wrapper-booking-actions">
-                                    <a class="secondary" href="#"><img src="./assets/img/cart.svg" alt="">Add to
-                                        cart</a>
+                                    <a class="secondary" href="#"><img src="./assets/img/cart.svg" alt="">+ cart</a>
                                     <a class="primary" href="#">Book now</a>
                                 </div>
 
@@ -938,7 +954,7 @@
                                     <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
                                         tranquil retreat just minutes away from one of the world's most magnificent
                                         natural wonders. <a href="#">Show more</a></p>
-                                    <div class="price"><span>From <b>&euro;20.00</b> pp</span><a href="#">Include</a>
+                                    <div class="price"><span><small>From</small><b>&euro;20.00</b> pp</span><a href="#">Include</a>
                                     </div>
                                 </div>
                             </article>
@@ -951,7 +967,7 @@
                                     <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
                                         tranquil retreat just minutes away from one of the world's most magnificent
                                         natural wonders. <a href="#">Show more</a></p>
-                                    <div class="price"><span>From <b>&euro;20.00</b> pp</span><a href="#">Include</a>
+                                    <div class="price"><span><small>From</small><b>&euro;20.00</b> pp</span><a href="#">Include</a>
                                     </div>
                                 </div>
                             </article>
@@ -968,7 +984,7 @@
                                     <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
                                         tranquil retreat just minutes away from one of the world's most magnificent
                                         natural wonders.</p>
-                                    <div class="price"><span>From <b>&euro;20.00</b> pp</span><a href="#">Add to
+                                    <div class="price"><span><small>From</small><b>&euro;20.00</b> pp</span><a href="#">Add to
                                             cart</a></div>
                                 </div>
                             </article>
@@ -980,7 +996,7 @@
                                     <p>Nestled in the serene suburbs of Victoria Falls, Bayete Guest Lodge offers a
                                         tranquil retreat just minutes away from one of the world's most magnificent
                                         natural wonders.</p>
-                                    <div class="price"><span>From <b>&euro;180.00</b> pp</span><a href="#">Add to
+                                    <div class="price"><span><small>From</small><b>&euro;180.00</b> pp</span><a href="#">Add to
                                             cart</a></div>
                                 </div>
                             </article>
@@ -998,13 +1014,16 @@
                                 alt="Traveler photo">
                             <img src="./assets/img/figma/26d9748aeea18dd64ae38dacc5bae6fea37e7e93.png"
                                 alt="Traveler photo">
+                            <img src="./assets/img/figma/649b295413640744ac4ea79c04f94080e2e29908.png"
+                                alt="Traveler photo">
                             <a href="#"><img src="./assets/img/photos.svg" alt="">View all</a>
                         </div>
                         <h2>Reviews</h2>
                         <div class="card__wrapper-reviews-layout">
                             <div class="card__wrapper-reviews-list">
                                 <article>
-                                    <div class="avatar image"><img src="./assets/img/organizer_logo2.svg"
+                                    <div class="avatar image"><img
+                                            src="./assets/img/figma/00371c4fdbd980fbdc4da99814d8fa45a58b23b0.png"
                                             alt="Valentina"></div>
                                     <div>
                                         <p class="author">Valentina <span>May 2025</span></p>
@@ -1021,11 +1040,11 @@
                                         <div class="card__wrapper-review-gallery">
                                             <img src="./assets/img/figma/91634ae5cbd119bdda1b3bab65f1798bfb2874f2.png"
                                                 alt="Review photo">
-                                            <img src="./assets/img/figma/fa7048087f8a599bd8574bc3c0f401d9448bf29c.png"
+                                            <img src="./assets/img/figma/a54fe7e9a57489243dbc51cd35a7ee83da383943.png"
                                                 alt="Review photo">
                                             <img src="./assets/img/figma/f6e0a98a382f93a2933b722d7bfaf5c8b7dea5b8.png"
                                                 alt="Review photo">
-                                            <img src="./assets/img/figma/26d9748aeea18dd64ae38dacc5bae6fea37e7e93.png"
+                                            <img src="./assets/img/figma/76720745ea64938b913251b49ba9401ddd4e1e24.png"
                                                 alt="Review photo">
                                             <span>+6</span>
                                         </div>
@@ -1047,7 +1066,8 @@
                                     </div>
                                 </article>
                                 <article>
-                                    <div class="avatar image"><img src="./assets/img/organizer_logo.svg"
+                                    <div class="avatar image"><img
+                                            src="./assets/img/figma/00371c4fdbd980fbdc4da99814d8fa45a58b23b0.png"
                                             alt="Valentina"></div>
                                     <div>
                                         <p class="author">Valentina <span>May 2025</span></p>
@@ -1058,6 +1078,14 @@
                                             country on your own; you could walk both in the desert and around the
                                             city.</p>
                                         <a href="#">Show more</a>
+                                        <div class="card__wrapper-review-gallery card__wrapper-review-gallery--compact">
+                                            <img src="./assets/img/figma/39b310b1697b972852df6d773f30f9813e7a90d7.png"
+                                                alt="Review photo">
+                                            <img src="./assets/img/figma/78926dd8882a4012f7456010346cf38fa8192d21.png"
+                                                alt="Review photo">
+                                            <img src="./assets/img/figma/6eef8171aaa848d476b413ca340e2c82b69b4f0b.png"
+                                                alt="Review photo">
+                                        </div>
                                     </div>
                                 </article>
                                 <button type="button">See all reviews</button>
@@ -1081,10 +1109,37 @@
 
                     <section class="card__wrapper-details-card card__wrapper-faq" id="faq">
                         <h2>FAQ</h2>
-                        <button type="button">Do I need a visa to join the tour?</button>
-                        <button type="button">What is included in the tour price and what is not?</button>
-                        <button type="button">Do I need travel insurance and what are the requirements?</button>
-                        <button type="button">Can I cancel or reschedule my booking? What are the conditions?</button>
+                        <article>
+                            <button type="button" aria-expanded="false">Do I need a visa to join the tour?</button>
+                            <div class="card__wrapper-faq-panel" hidden>
+                                <p>Visa requirements depend on your nationality and the destination country. We
+                                    recommend checking the rules in advance.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <button type="button" aria-expanded="false">What is included in the tour price and what is
+                                not?</button>
+                            <div class="card__wrapper-faq-panel" hidden>
+                                <p>The tour page lists included services and exclusions in detail. Your manager will
+                                    also confirm the final list before payment.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <button type="button" aria-expanded="false">Do I need travel insurance and what are the
+                                requirements?</button>
+                            <div class="card__wrapper-faq-panel" hidden>
+                                <p>Travel insurance is recommended for every tour. Requirements can vary by destination,
+                                    activity level and airline rules, so check coverage before the trip.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <button type="button" aria-expanded="false">Can I cancel or reschedule my booking? What are
+                                the conditions?</button>
+                            <div class="card__wrapper-faq-panel" hidden>
+                                <p>Cancellation and rescheduling terms depend on the selected date, supplier policy and
+                                    timing. We will show the exact conditions before checkout.</p>
+                            </div>
+                        </article>
                         <a href="#">Ask a question</a>
                     </section>
 
@@ -1106,7 +1161,7 @@
                                 <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
                             </article>
                             <article>
-                                <img class="photo" src="./assets/img/figma/f38d3960240fa35fee59316622f7ae0041dae12f.png"
+                                <img class="photo" src="./assets/img/figma/add7831b6c4864bb794f1c6b581d07ece6179b38.png"
                                     alt="Cape of Good Hope">
                                 <span>&starf; 3.5</span>
                                 <p>Cape Town, Western Cape</p>
@@ -1119,7 +1174,7 @@
                                 <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
                             </article>
                             <article>
-                                <img class="photo" src="./assets/img/figma/49b6b5838b813e697b6ffc8aa8e29cd1dc421e7d.png"
+                                <img class="photo" src="./assets/img/figma/add7831b6c4864bb794f1c6b581d07ece6179b38.png"
                                     alt="Cape of Good Hope">
                                 <span>&starf; 3.5</span>
                                 <p>Cape Town, Western Cape</p>
@@ -1132,7 +1187,7 @@
                                 <div class="cost"><small>from</small><del>&euro; 2.476</del><b>&euro;450.00</b></div>
                             </article>
                             <article>
-                                <img class="photo" src="./assets/img/figma/581c4de5e86672eb1f46b58fbb82cf2b0be9160c.png"
+                                <img class="photo" src="./assets/img/figma/add7831b6c4864bb794f1c6b581d07ece6179b38.png"
                                     alt="Cape of Good Hope">
                                 <span>&starf; 3.5</span>
                                 <p>Cape Town, Western Cape</p>
@@ -1162,6 +1217,8 @@
     <script>
         const itineraryDays = document.querySelectorAll('.card__wrapper-itinerary-day');
         const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const itineraryPanelCleanups = new WeakMap();
+        const itineraryTransitionMs = 560;
 
         const setDayState = (day, isOpen) => {
             const button = day.querySelector('[data-itinerary-toggle]');
@@ -1173,8 +1230,32 @@
             panel.setAttribute('aria-hidden', String(!isOpen));
         };
 
+        const clearPanelAnimation = (panel) => {
+            const cleanup = itineraryPanelCleanups.get(panel);
+            if (cleanup) cleanup();
+        };
+
+        const onPanelTransitionDone = (panel, done) => {
+            const finish = (event) => {
+                if (event && event.propertyName !== 'height') return;
+                cleanup();
+                done();
+            };
+
+            const cleanup = () => {
+                window.clearTimeout(timer);
+                panel.removeEventListener('transitionend', finish);
+                itineraryPanelCleanups.delete(panel);
+            };
+
+            const timer = window.setTimeout(finish, itineraryTransitionMs);
+            itineraryPanelCleanups.set(panel, cleanup);
+            panel.addEventListener('transitionend', finish);
+        };
+
         const openDay = (day) => {
             const panel = day.querySelector('.card__wrapper-itinerary-panel');
+            clearPanelAnimation(panel);
 
             panel.hidden = false;
             panel.style.height = '0px';
@@ -1189,18 +1270,15 @@
                 panel.style.height = `${panel.scrollHeight}px`;
             });
 
-            const finishOpen = (event) => {
-                if (event.propertyName !== 'height') return;
+            onPanelTransitionDone(panel, () => {
                 panel.style.height = 'auto';
-                panel.removeEventListener('transitionend', finishOpen);
-            };
-
-            panel.addEventListener('transitionend', finishOpen);
+            });
         };
 
         const closeDay = (day) => {
             const panel = day.querySelector('.card__wrapper-itinerary-panel');
             if (panel.hidden) return;
+            clearPanelAnimation(panel);
 
             if (prefersReducedMotion) {
                 setDayState(day, false);
@@ -1217,14 +1295,10 @@
                 panel.style.height = '0px';
             });
 
-            const finishClose = (event) => {
-                if (event.propertyName !== 'height') return;
+            onPanelTransitionDone(panel, () => {
                 panel.hidden = true;
                 panel.style.height = '';
-                panel.removeEventListener('transitionend', finishClose);
-            };
-
-            panel.addEventListener('transitionend', finishClose);
+            });
         };
 
         itineraryDays.forEach((day) => {
@@ -1248,7 +1322,54 @@
             });
         });
 
+        const faqItems = document.querySelectorAll('.card__wrapper-faq article');
+        const shouldOpenFirstFaq = window.matchMedia('(max-width: 768px)').matches;
+
+        faqItems.forEach((item) => {
+            const button = item.querySelector('button');
+            const panel = item.querySelector('.card__wrapper-faq-panel');
+
+            button.addEventListener('click', () => {
+                const shouldOpen = !item.classList.contains('active');
+
+                faqItems.forEach((otherItem) => {
+                    if (otherItem === item) return;
+                    otherItem.classList.remove('active');
+                    otherItem.querySelector('button').setAttribute('aria-expanded', 'false');
+                    const otherPanel = otherItem.querySelector('.card__wrapper-faq-panel');
+                    window.setTimeout(() => {
+                        if (!otherItem.classList.contains('active')) otherPanel.hidden = true;
+                    }, 260);
+                });
+
+                if (shouldOpen) {
+                    panel.hidden = false;
+                    item.classList.add('active');
+                    button.setAttribute('aria-expanded', 'true');
+                } else {
+                    item.classList.remove('active');
+                    button.setAttribute('aria-expanded', 'false');
+                    window.setTimeout(() => {
+                        if (!item.classList.contains('active')) panel.hidden = true;
+                    }, 260);
+                }
+            });
+        });
+
+        if (shouldOpenFirstFaq && faqItems[0]) {
+            const firstButton = faqItems[0].querySelector('button');
+            const firstPanel = faqItems[0].querySelector('.card__wrapper-faq-panel');
+
+            firstPanel.hidden = false;
+            faqItems[0].classList.add('active');
+            firstButton.setAttribute('aria-expanded', 'true');
+        }
+
         const formatEuro = (value) => `€${Math.round(value).toLocaleString('de-DE')}`;
+        const formatEuroDecimal = (value) => {
+            const locale = value >= 8000 ? 'en-US' : 'de-DE';
+            return `€${Math.round(value).toLocaleString(locale)}.00`;
+        };
         const bookingDays = document.querySelectorAll('[data-booking-day]');
         const passengerRows = document.querySelectorAll('[data-passenger-row]');
         const passengerTotals = document.querySelectorAll('[data-passenger-total]');
@@ -1281,7 +1402,7 @@
             });
         };
 
-        const updateBookingSummary = () => {
+        const updateBookingSummary = (syncPassengerCount = false) => {
             const activeDay = document.querySelector('[data-booking-day].active');
             if (!activeDay) return;
 
@@ -1291,7 +1412,11 @@
             const subtotal = passengers.adults * basePrice + passengers.children * childPrice;
             const deposit = Number(activeDay.dataset.deposit);
             const balance = Math.max(subtotal - deposit, 0);
-            const passengerLabel = `${passengers.adults} ${passengers.adults === 1 ? 'Adult' : 'Adults'} ${passengers.children} ${passengers.children === 1 ? 'Child' : 'Children'}`;
+            const passengerLabel = syncPassengerCount
+                ? `${passengers.adults} ${passengers.adults === 1 ? 'Adult' : 'Adults'} ${passengers.children} ${passengers.children === 1 ? 'Child' : 'Children'}`
+                : activeDay.dataset.passengers;
+            const displayTotal = syncPassengerCount ? subtotal : Number(activeDay.dataset.total);
+            const displayBalance = syncPassengerCount ? balance : Number(activeDay.dataset.balance);
 
             passengerTotals.forEach((item) => {
                 item.textContent = passengers.total;
@@ -1300,12 +1425,14 @@
                 item.textContent = passengerLabel;
             });
 
-            selectedDate.textContent = activeDay.dataset.date;
+            if (selectedDate) selectedDate.textContent = activeDay.dataset.date;
+            const dueDate = document.querySelector('[data-due-date]');
+            if (dueDate) dueDate.textContent = activeDay.dataset.due;
             pricePerson.textContent = formatEuro(basePrice);
-            oldPrice.textContent = formatEuro(basePrice * 1.25);
-            totalPrice.textContent = formatEuro(subtotal);
-            depositPrice.textContent = formatEuro(deposit);
-            balancePrice.textContent = formatEuro(balance);
+            oldPrice.textContent = formatEuro(basePrice);
+            totalPrice.textContent = formatEuroDecimal(displayTotal);
+            depositPrice.textContent = formatEuroDecimal(deposit);
+            balancePrice.textContent = formatEuroDecimal(displayBalance);
             updatePassengerControls();
         };
 
@@ -1314,9 +1441,9 @@
                 if (button.disabled) return;
 
                 bookingDays.forEach((day) => {
-                    day.classList.remove('active');
+                    day.classList.remove('active', 'card__wrapper-booking-days-item-active');
                 });
-                button.classList.add('active');
+                button.classList.add('active', 'card__wrapper-booking-days-item-active');
                 updateBookingSummary();
             });
         });
@@ -1329,13 +1456,13 @@
             row.querySelector('[data-counter-minus]').addEventListener('click', () => {
                 const nextValue = Math.max(Number(valueElement.textContent) - 1, min);
                 valueElement.textContent = nextValue;
-                updateBookingSummary();
+                updateBookingSummary(true);
             });
 
             row.querySelector('[data-counter-plus]').addEventListener('click', () => {
                 const nextValue = Math.min(Number(valueElement.textContent) + 1, max);
                 valueElement.textContent = nextValue;
-                updateBookingSummary();
+                updateBookingSummary(true);
             });
         });
 
