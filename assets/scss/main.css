@@ -10,7 +10,9 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  tab-size: 4;
+  -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
   font-family: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -48,7 +50,8 @@ a {
 
 abbr[title] {
   border-bottom: none;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 b,
@@ -115,7 +118,8 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  appearance: button;
+  -moz-appearance: button;
+       appearance: button;
   -webkit-appearance: button;
 }
 
@@ -167,7 +171,8 @@ textarea {
 }
 
 [type=search] {
-  appearance: textfield;
+  -moz-appearance: textfield;
+       appearance: textfield;
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
@@ -282,8 +287,7 @@ img {
 .navbar__search-wrapper input {
   border: 0px none;
   outline: 0px none;
-  padding: 13px 0;
-  border-radius: inherit;
+  padding: 10px 0;
   width: 80%;
   color: #6d8392;
   font-size: 16px;
@@ -526,7 +530,8 @@ body.is-search-open {
   height: 145px;
   background-color: rgba(128, 128, 128, 0.4078431373);
   border-radius: 12px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
 }
 .card__wrapper-slider-parent {
@@ -545,7 +550,8 @@ body.is-search-open {
 .card__wrapper-slider-parent-item > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
 }
 .card__wrapper-slider-parent-view {
@@ -757,7 +763,6 @@ body.is-search-open {
 .card__wrapper-booking-days-item-active .card__wrapper-booking-day {
   background-color: #2b5f84;
   border-radius: 60px;
-  max-width: 62px;
   color: #fff;
   font-size: 11px;
   font-weight: 500;
@@ -843,10 +848,9 @@ body.is-search-open {
 }
 .card__wrapper-booking-days button.active {
   background-color: #fff7ea;
-  box-shadow: inset 0 0 0 1px #ff9d00, 0 12px 24px rgba(255, 157, 0, 0.16);
 }
 .card__wrapper-booking-days button:focus-visible {
-  outline: 3px solid rgba(255, 157, 0, 0.35);
+  outline: 1px solid rgba(255, 157, 0, 0.35);
   outline-offset: 2px;
 }
 .card__wrapper-booking-selected {
@@ -1098,7 +1102,7 @@ body.is-search-open {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   gap: 10px;
-  padding: 18px 0 12px;
+  padding: 18px 18px 12px;
 }
 .card__wrapper-booking-actions a {
   min-height: 48px;
@@ -1115,7 +1119,8 @@ body.is-search-open {
 .card__wrapper-booking-actions a img {
   width: 20px;
   height: 20px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .card__wrapper-booking-actions .secondary {
   border: 1.5px solid #2b5f84;
@@ -1362,7 +1367,8 @@ body.is-search-open {
   width: 22px;
   height: 22px;
   max-width: none;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   flex: 0 0 22px;
 }
 .card__wrapper-info-override-item span {
@@ -1438,7 +1444,8 @@ body.is-search-open {
   width: 100px;
   height: 60px;
   margin-top: 18px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .card__wrapper-tour-style-item p {
   margin: 24px 0 0 0;
@@ -1475,7 +1482,8 @@ body.is-search-open {
 .card__wrapper-organizers-avatar {
   width: 121px;
   height: 126px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .card__wrapper-organizers-role {
   margin: 11px 0 0;
@@ -1538,7 +1546,7 @@ body.is-search-open {
   transform: rotate(45deg);
 }
 .card__wrapper-details-section {
-  margin-top: 0;
+  margin-top: 70px;
   padding: 50px 0 70px;
   background-color: #f3f7f8;
 }
@@ -1891,7 +1899,8 @@ body.is-search-open {
   width: 100%;
   height: 164px;
   border-radius: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   transition: transform 0.35s ease, box-shadow 0.35s ease, filter 0.35s ease;
 }
 .card__wrapper-itinerary-gallery img:hover {
@@ -1922,7 +1931,8 @@ body.is-search-open {
 .card__wrapper-itinerary-meta img {
   width: 24px;
   height: 24px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .card__wrapper-itinerary-meta span {
   color: #112533;
@@ -2128,7 +2138,8 @@ body.is-search-open {
   display: block;
   width: 100%;
   height: 158px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-color: #fff;
 }
 .card__wrapper-addons h3 {
@@ -2163,7 +2174,8 @@ body.is-search-open {
 .card__wrapper-addons-list img {
   width: 100%;
   height: 220px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 12px;
 }
 .card__wrapper-addons-list h4 {
@@ -2261,7 +2273,8 @@ body.is-search-open {
 .card__wrapper-traveler-photos img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 12px;
 }
 .card__wrapper-traveler-photos > img:first-child {
@@ -2323,7 +2336,8 @@ body.is-search-open {
 .card__wrapper-reviews-list .avatar img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card__wrapper-reviews-list .author {
   margin: 0;
@@ -2400,7 +2414,8 @@ body.is-search-open {
   border-radius: 8px;
 }
 .card__wrapper-review-gallery img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
 }
 .card__wrapper-review-gallery span {
@@ -2601,6 +2616,7 @@ body.is-search-open {
   display: inline-flex;
   align-items: center;
   gap: 12px;
+  width: -moz-fit-content;
   width: fit-content;
   margin-top: 14px;
   padding: 15px 30px 15px 28px;
@@ -2706,7 +2722,8 @@ body.is-search-open {
   max-width: none;
   height: 229px;
   margin: 0;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-color: #fff;
   border-radius: 12px 12px 0 0;
 }
@@ -3518,7 +3535,8 @@ body.is-search-open {
     height: 42px;
     border-radius: 6px;
     background-color: #edf6fa;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4009,7 +4027,8 @@ body.is-search-open {
     grid-template-columns: 64px minmax(0, 1fr);
     grid-template-rows: auto auto;
     align-items: center;
-    column-gap: 14px;
+    -moz-column-gap: 14px;
+         column-gap: 14px;
     text-align: left;
   }
   .card__wrapper-tour-style-item h3 {
@@ -4377,6 +4396,4 @@ body.is-search-open {
   .card__wrapper-similar-list article {
     flex-basis: 290px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

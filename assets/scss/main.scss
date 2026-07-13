@@ -78,8 +78,7 @@ img {
         input {
             border: 0px none;
             outline: 0px none;
-            padding: 13px 0;
-            border-radius: inherit;
+            padding: 10px 0;
             width: 80%;
             color: #6d8392;
             font-size: 16px;
@@ -567,7 +566,6 @@ body.is-search-open {
         .card__wrapper-booking-day {
             background-color: #2b5f84;
             border-radius: 60px;
-            max-width: 62px;
             color: #fff;
             font-size: 11px;
             font-weight: 500;
@@ -659,12 +657,9 @@ body.is-search-open {
             }
             &.active {
                 background-color: #fff7ea;
-                box-shadow:
-                    inset 0 0 0 1px #ff9d00,
-                    0 12px 24px rgba(255, 157, 0, 0.16);
             }
             &:focus-visible {
-                outline: 3px solid rgba(255, 157, 0, 0.35);
+                outline: 1px solid rgba(255, 157, 0, 0.35);
                 outline-offset: 2px;
             }
         }
@@ -920,7 +915,7 @@ body.is-search-open {
         display: grid;
         grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
         gap: 10px;
-        padding: 18px 0 12px;
+        padding: 18px 18px 12px;
         a {
             min-height: 48px;
             border-radius: 999px;
@@ -1374,7 +1369,7 @@ body.is-search-open {
         }
     }
     &__wrapper-details-section {
-        margin-top: 0;
+        margin-top: 70px;
         padding: 50px 0 70px;
         background-color: #f3f7f8;
     }
